@@ -1,0 +1,264 @@
+body {
+    background-color: #a9cce3;
+}
+
+li a:hover {
+    color: whitesmoke;
+    font-size: 1.1em;
+}
+
+img {
+    margin-top: 0px;
+    width: 350px;
+    height: 300px;
+}
+
+.contenvio {
+    background-color: white;
+    width: 325px;
+    margin-top: 25px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-left: 1.3vw;
+    margin-right: 1.3vw;
+    border-radius: 5px 10px 5px 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+}
+
+.contenvio:hover {
+    color: white;
+    background-color: #80b5d8;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    border-color: white;
+}
+
+.cont {
+    background-color: #a9cce3;
+    width: 325px;
+    margin-top: 25px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-left: 1.2vw;
+    margin-right: 1.2vw;
+    border-radius: 5px 10px 5px 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(225, 225, 225);
+}
+
+.cont:hover {
+    color: white;
+    background-color: #80b5d8;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    border-color: white;
+}
+
+main {
+    margin-left: auto;
+    margin-top: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.btn-agregar {
+    background-color: darkgreen;
+    color: white;
+    border-radius: 5px;
+    border: solid white 1px;
+    padding: 2px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.precio {
+    font-size: 30px;
+    text-decoration: solid;
+}
+
+.boton {
+    text-align: center;
+    border: none;
+}
+
+.boton :hover {
+    color: black;
+}
+
+.envio {
+    width: 400px;
+    height: 450px;
+}
+
+.boxenvio {
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    margin-left: 15px;
+}
+
+hr {
+    background-color: black;
+    color: black;
+    margin-top: 25px;
+}
+
+.cuotas {
+    margin-top: -5px;
+    margin-bottom: 0px;
+    color: rgb(105, 104, 104);
+    font-size: 15px;
+}
+
+.datos {
+    border: none;
+    margin-left: 25px;
+}
+
+.logowpp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.logowpp img {
+    width: 55px;
+    height: 55px;
+}
+
+.acercade {
+    height: 100vh;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+.padn {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: -20px;
+}
+
+.afooter {
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    font-size: 13px;
+    animation: forwards;
+}
+
+.itembarra {
+    font-size: 25px;
+}
+
+.mapa {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.psucursales {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.h2error {
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.error {
+    width: 700px;
+    height: 700px;
+}
+
+.diverror {
+    margin-top: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 65px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+h2 {
+    margin-top: 0px;
+    margin-bottom: -5px;
+    text-align: center;
+}
+
+.h2general {
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.producto {
+    font-size: 20px;
+    text-align: left;
+}
+
+.ldu{
+    margin-top: 75px;
+}
+.rdu{
+    margin-top: 75px;
+}
+.creado{
+    margin-top: 105px;
+}
+.sucu{
+    margin-left: -25px;
+}
+
+.map-frame {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#carrito{
+    background-color: #212529;
+    border-color: white;
+}
+
+.carrito-imagen{
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.carrito-nombre{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.form-label{
+    margin-left: 5px;
+}
+
+#ps{
+    padding: 1px;
+    font-size: 50px;
+}

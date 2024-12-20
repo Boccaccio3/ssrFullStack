@@ -1,0 +1,67 @@
+<nav class="bg-dark py-2 mb-1">
+<h1 id="ps">Perfumeria Scentify</h1>
+</nav>
+
+<nav class="bg-dark py-2 mb-5 mt-0">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+        <div>
+            <button id="carrito" class="btn btn-danger float-start" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0d6efd" class="bi bi-bag" viewBox="0 0 16 16">
+                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                </svg>
+            </button>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title mb-0" id="offcanvasExampleLabel">Tu Carrito</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div>
+                        <section id="perfumem">
+                            <div id="carritow"></div>
+                        </section>
+                        <br>
+                        <section id="perfumef">
+                            <div id="carritowf"></div>
+                        </section>
+                        <div class="d-flex justify-content-center mt-5">
+                            <hr class="text-dark mt-0">
+                            <button id="enviarpedido" type="button" class="btn btn-success">Enviar Pedido</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <ul class="d-flex flex-wrap align-items-center justify-content-center list-unstyled m-0">
+            <li class="itembarra mx-3">
+                <a class="text-decoration-none text-white" href="/">Masculino</a>
+            </li>
+            <li class="itembarra mx-3">
+                <a class="text-decoration-none text-white" href="/femenino">Femenino</a>
+            </li>
+            <li class="itembarra mx-3">
+                <a class="text-decoration-none text-white" href="/alta">Alta</a>
+            </li>
+            <li class="itembarra mx-3">
+                <a class="text-decoration-none text-white" href="/sucursales">Sucursales</a>
+            </li>
+            <li class="itembarra mx-3">
+                <a class="text-decoration-none text-white" href="/nosotros">Nosotros</a>
+            </li>
+        </ul>
+
+        <div>
+            <a href="/user/login">
+                <button id="miBoton" class="btn btn-primary" type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                    </svg>
+                </button>
+            </a>
+        </div>
+    </div>
+</nav>
