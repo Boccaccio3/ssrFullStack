@@ -12,7 +12,7 @@ const MONGO_ATLAS = process.env.MONGO_ATLAS;
 // Conectar a la base de datos
 const conexion = require('./conexion/conexion');
 //conexion();   
-conexion(MONGO_LOCAL);
+conexion(MONGO_ATLAS);
 
 
 
