@@ -11,10 +11,6 @@ router.get("/femenino", (req, res) => {
     res.render("femenino");
 });
 
-router.get("/alta", (req, res) => {
-    res.render("alta");
-});
-
 router.get("/sucursales", (req, res) => {
     res.render("sucursales");
 });

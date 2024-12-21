@@ -9,6 +9,7 @@ const morgan = require('morgan');
 // importamos las rutas de la aplicación
 const routerHome = require('./router/routerHome');
 const routerUser = require('./router/userRouter');
+const routerProduct = require('./router/routerProduct');
 
 // 2. Creamos una instancia de express
 const app = express();
@@ -24,6 +25,7 @@ app.use(morgan('dev'));
 // Rutas de la aplicación como middleware
 app.use('/', routerHome);
 app.use('/user', routerUser);
+app.use('/product', routerProduct);
 
 // Ruta para probar el middleware de error
 /* app.get("/error", (req, res) => {

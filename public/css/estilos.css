@@ -138,8 +138,8 @@ hr {
 }
 
 .acercade {
-    height: 100vh;
-    width: 80vw;
+    height: 80vh;
+    width: 85vw;
     margin-left: auto;
     margin-right: auto;
     border: none;
@@ -209,7 +209,7 @@ h2 {
 
 .h2general {
     font-size: 40px;
-    margin-top: 80px;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -218,12 +218,6 @@ h2 {
     text-align: left;
 }
 
-.ldu{
-    margin-top: 75px;
-}
-.rdu{
-    margin-top: 75px;
-}
 .creado{
     margin-top: 105px;
 }
@@ -258,7 +252,18 @@ h2 {
     margin-left: 5px;
 }
 
-#ps{
-    padding: 1px;
-    font-size: 50px;
+.mainalta{
+    margin-bottom: 16%;
+}
+
+.mainlist{
+    margin-bottom: 8%;
+}
+
+.img-producto {
+    width: 350px;
+    height: 350px;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
 }

@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="/css/estilos.css">
+
+<main class="mainlist">
+<div class="container text-center">
+    <h2 class="h2general"> Listado de Productos</h2>
+</div>
+
+<div class="container">
+    <div class="row mt-3 mb-5">
+    {{#each productos}}
+    <div class="cont col-md-4 mb-4">
+        <div class="">
+            <img src="{{imagen}}" alt="Imagen de {{marca}}" class="img-fluid rounded img-producto" style="max-width: 100%; height: auto;" />
+            <h2 class="card-title">{{marca}}</h2>
+            <p class="card-subtitle mb-2 text-muted">{{edicion}}</p>
+            <p class="precio">${{precio}}</p>
+            <div class="d-flex justify-content-between align-items-center">
+            <button id="pm1" class="btn-agregar mx-auto">AGREGAR AL CARRITO</button></div>
+        </div>
+    </div>
+    {{/each}}
+</div>
+</div>
+</main>

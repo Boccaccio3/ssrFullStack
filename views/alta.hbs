@@ -1,13 +1,14 @@
 <link rel="stylesheet" href="/css/estilos.css">
 
-<div class="container text-center mt-5">
-    <h1 class="ldu">
+<main class="mainalta">
+<div class="container text-center">
+    <h1 class="h2general">
         Alta de Productos
     </h1>
 </div>
 
 <div class="container">
-        <form method="post" action="/user/login">
+        <form method="post" action="/product/register">
             <div class="mb-3">
                 <label for="marca" class="form-label">Marca</label>
                 <input type="text" class="form-control" name="marca" id="marca" aria-describedby="marcaHelp" placeholder="Marca del Perfume" required>
@@ -21,11 +22,16 @@
                 <input type="number" class="form-control" name="precio" id="precio" placeholder="Precio (sin decimales)" required>
             </div>
 
+            <div class="mb-3">
+                <label for="imagen" class="form-label">Imagen</label>
+                <input type="url" class="form-control" name="imagen" id="imagen" placeholder="Imagen del Producto" required>
+            </div>
+
 
 
             <div class="text-center">
                 <button type="submit" class="btn btn-success w-25">
-                    Iniciar Sesión
+                    Confirmar
                 </button>
                 <button type="reset" class="btn btn-danger">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
@@ -34,3 +40,4 @@
                 </button>
         </form>
 </div>
+</main>
